@@ -1,10 +1,12 @@
 const canvas = document.getElementById('canvas')
+const img = document.getElementById('img')
 const tolerance = 165
 const referenceColor = {
     r: 0,
     g: 255,
     b: 0
 }
+
 const image = new Image()
 
 image.src = './maxresdefault.jpg'
